@@ -56,7 +56,7 @@ export default class ComponentFooter extends React.Component {
 
 ## `component/bodyindex.js`
 ```
-import React form 'react';
+import React from 'react';
 
 export default class BodyIndex extends React.Component {
     constructor () {
@@ -65,6 +65,10 @@ export default class BodyIndex extends React.Component {
             welcome: "Hello",
             name: "Geekzwb"
         };// init
+    }
+
+    changeUserInfo() {
+        this.setState({welcome: "Hello"});
     }
 
     render() {
@@ -77,6 +81,7 @@ export default class BodyIndex extends React.Component {
         return (
             <div>
                 <h1>{this.state.welcome}, {this.state.name}</h1>
+                <input type="button" value="提交" onClick={this.changeUserInfo.bind(this)} />
             </div>
         );
     }
