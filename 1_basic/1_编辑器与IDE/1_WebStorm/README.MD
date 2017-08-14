@@ -1,7 +1,7 @@
 ##  Table of Contents
-1. [常用快捷键]()
-1. [增加依赖包自动提示]()
-1. [自定义代码格式化规则]()
+1. [常用快捷键](https://github.com/geek-zwb/front-end/tree/master/1_basic/1_%E7%BC%96%E8%BE%91%E5%99%A8%E4%B8%8EIDE/1_WebStorm#常用快捷键-os-105-webstorm-201711)
+1. [增加依赖包自动提示](https://github.com/geek-zwb/front-end/tree/master/1_basic/1_%E7%BC%96%E8%BE%91%E5%99%A8%E4%B8%8EIDE/1_WebStorm#增加依赖包自动提示)
+1. [自定义代码格式化规则](https://github.com/geek-zwb/front-end/tree/master/1_basic/1_%E7%BC%96%E8%BE%91%E5%99%A8%E4%B8%8EIDE/1_WebStorm#自定义代码格式化规则)
 
 ## 常用快捷键 （OS 10.5+ WebStorm 2017.1.1）
 快捷键 | 功能
