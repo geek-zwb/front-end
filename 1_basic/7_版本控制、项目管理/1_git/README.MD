@@ -1,9 +1,9 @@
 # git 版本控制
 
 ## Table of Contents
-1. [git 参考开发流程]()
-1. [git 常用命令]()
-1. [搭建 git 服务器]()
+1. [git 参考开发流程](https://github.com/geek-zwb/front-end/tree/master/1_basic/7_%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E3%80%81%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/1_git#git-参考开发流程)
+1. [git 常用命令](https://github.com/geek-zwb/front-end/tree/master/1_basic/7_%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E3%80%81%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/1_git#git-常用命令)
+1. [搭建 git 服务器](https://github.com/geek-zwb/front-end/tree/master/1_basic/7_%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E3%80%81%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/1_git#搭建-git-服务器)
 
 ## git 参考开发流程
 1. 从master分支创建develop分支；
@@ -66,6 +66,32 @@ $ git rm --cached [file]
 # 改名文件，并且将这个改名放入暂存区
 $ git mv [file-original] [file-renamed]# 例子
 $ git mv oldName.txt newName.txt
+```
+
+### 显示
+```sh
+# 查看git本地仓库当前状态
+$ git status
+
+# 查看暂存区文件与仓库文件之间的不同修改
+$ git diff
+
+# 查看git详细日志，包含不同版本提交、时间、作者（前面配置email和name这里会有用）
+$ git log
+# 查看简洁化日志 只显示commit信息
+$ git log--pretty=oneline
+
+# 查看命令记录，回退版本时可根据命令编号来
+$ git reflog
+
+# 显示暂存区和最新commit的差异
+$ git diff --cached [file]
+
+# 显示工作区与当前分支最新commit之间的差异
+$ git diff HEAD
+
+# 显示某次提交的元数据和内容变化
+$ git show [commit]
 ```
 
 ### 提交
@@ -177,32 +203,6 @@ $ git reset --hard [commit]
 ```sh
 # 打个 tag
 $ git tag -a "tagName" -m "remark"
-```
-
-### 显示
-```sh
-# 查看git本地仓库当前状态
-$ git status
-
-# 查看暂存区文件与仓库文件之间的不同修改
-$ git diff
-
-# 查看git详细日志，包含不同版本提交、时间、作者（前面配置email和name这里会有用）
-$ git log
-# 查看简洁化日志 只显示commit信息
-$ git log--pretty=oneline
-
-# 查看命令记录，回退版本时可根据命令编号来
-$ git reflog
-
-# 显示暂存区和最新commit的差异
-$ git diff --cached [file]
-
-# 显示工作区与当前分支最新commit之间的差异
-$ git diff HEAD
-
-# 显示某次提交的元数据和内容变化
-$ git show [commit]
 ```
 
 ## 搭建 git 服务器
