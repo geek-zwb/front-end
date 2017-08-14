@@ -1,5 +1,5 @@
 ## 大前端技术栈（有闲情就更新）
-1. 技术基本功
+1. [技术基本功](https://github.com/geek-zwb/front-end/tree/master/1_basic)
     1. [熟练掌握至少一种主流代码编辑器或IDE (必修)](https://github.com/geek-zwb/front-end/tree/master/1_basic/1_%E7%BC%96%E8%BE%91%E5%99%A8%E4%B8%8EIDE)
     1. [拥有良好的代码规范、代码质量、代码注释能力 (必修)](https://github.com/geek-zwb/front-end/tree/master/1_basic/2_%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E4%B8%8E%E8%B4%A8%E9%87%8F)
     1. [理解主流编程范式及其思想 (必修)](https://github.com/geek-zwb/front-end/tree/master/1_basic/3_%E7%BC%96%E7%A8%8B%E8%8C%83%E5%BC%8F)
@@ -12,7 +12,7 @@
     1. [熟练绘制概念图、思维导图、流程图、网络拓扑图等 (选修)](https://github.com/geek-zwb/front-end/tree/master/1_basic/10_%E7%BB%98%E5%9B%BE)
     1. [掌握持续集成、持续交互、持续部署相关编程能力 (选修)](https://github.com/geek-zwb/front-end/tree/master/1_basic/11_%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90%E4%B8%8E%E9%83%A8%E7%BD%B2)
 2. 前端设计能力
-3. 前端开发能力
+3. [前端开发能力](https://github.com/geek-zwb/front-end/tree/master/3_development)
     1. [熟练使用 HTML、CSS3、javascript三大前端语言](https://github.com/geek-zwb/front-end/tree/master/3_development/1_%E5%89%8D%E7%AB%AF%E4%B8%89%E5%A4%A7%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80)
     1. [理解前端语言新标准 HTML5、CSS3、ES6等及其新特性](https://github.com/geek-zwb/front-end/tree/master/3_development/2_HTML5%E3%80%81CSS3%E3%80%81ES6==)
     1. [熟练组件化开发、异步编程、虚拟DOM相关编程能力](https://github.com/geek-zwb/front-end/tree/master/3_development/3_%E7%BB%84%E4%BB%B6%E5%8C%96%E3%80%81%E5%BC%82%E6%AD%A5%E3%80%81%E8%99%9A%E6%8B%9FDOM)
