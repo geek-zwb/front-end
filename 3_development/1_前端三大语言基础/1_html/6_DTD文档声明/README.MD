@@ -11,7 +11,7 @@ HTML 4.01 中的 doctype 需要对 DTD 进行引用，因为 HTML 4.01 基于 SG
 
 SGML（标准通用标记语言）是一个标准，告诉我们怎么去指定文档标记。他是只描述文档标记应该是怎么样的元语言，HTML是被用SGML描述的标记语言。
 
-![SGML]()
+![SGML](https://github.com/geek-zwb/front-end/blob/master/3_development/1_%E5%89%8D%E7%AB%AF%E4%B8%89%E5%A4%A7%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/1_html/6_DTD%E6%96%87%E6%A1%A3%E5%A3%B0%E6%98%8E/SGML.bmp)
 
 ### 通用声明
 

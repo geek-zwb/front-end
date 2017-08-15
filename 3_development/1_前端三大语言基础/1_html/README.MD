@@ -4,4 +4,4 @@
 1. [HTML 语义化与 SEO](https://github.com/geek-zwb/front-end/tree/master/3_development/1_%E5%89%8D%E7%AB%AF%E4%B8%89%E5%A4%A7%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/1_html/3_%E8%AF%AD%E4%B9%89%E5%8C%96%E4%B8%8ESEO)
 1. [HTML 媒体](https://github.com/geek-zwb/front-end/tree/master/3_development/1_%E5%89%8D%E7%AB%AF%E4%B8%89%E5%A4%A7%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/1_html/4_HTML%E5%AA%92%E4%BD%93)
 1. [HTML 面试题](https://github.com/geek-zwb/front-end/tree/master/3_development/1_%E5%89%8D%E7%AB%AF%E4%B8%89%E5%A4%A7%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/1_html/5_HTML%E9%9D%A2%E8%AF%95%E9%A2%98%E9%9B%86%E9%94%A6)
-1. [DTD文档声明]()
+1. [DTD文档声明](https://github.com/geek-zwb/front-end/tree/master/3_development/1_%E5%89%8D%E7%AB%AF%E4%B8%89%E5%A4%A7%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/1_html/6_DTD%E6%96%87%E6%A1%A3%E5%A3%B0%E6%98%8E)
