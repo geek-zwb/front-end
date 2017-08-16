@@ -1,5 +1,5 @@
 #  微信小程序
- 官方的开发文档已经很清晰了。如果会`react` or `vue` or `angular` 的话，对着文档就能直接撸了。
+ [官方的开发文档](https://mp.weixin.qq.com/debug/wxadoc/dev/)已经很清晰了。如果会`react` or `vue` or `angular` 的话，对着文档就能直接撸了。
 
  这里仅做一些开发中遇到的问题记录。
 
@@ -13,13 +13,13 @@
  }
  // 类似上面的这种样式代码是不能工作的。 如果要实现高度自适应，需要对 image 设置 mode。
  # index.wxml
- <image class=".image" src="{{imgPath}}" mode="widthFix" />
+ <image class="image" src="{{imgPath}}" mode="widthFix" />
  # index.wxss
  .image {
     width: 100%;
  }
 ```
-** 充分说明认真看文档的重要性 **
+**充分说明认真看文档的重要性**
 
 2. 引用本地图片地址设置问题
 
