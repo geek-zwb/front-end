@@ -1,2 +1,2 @@
 ## 拥有浏览器插件、微信小程序、前端数据可视化编程能力
-1. [微信小程序]()
+1. [微信小程序](https://github.com/geek-zwb/front-end/tree/master/3_development/9_%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E3%80%81%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AD%89/1_%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F)
