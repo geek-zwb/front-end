@@ -28,3 +28,9 @@
 7. 编程软技能
 8. 其他
 9. 总结
+
+
+## reference
+1. [MDN12123](https://developer.mozilla.org/zh-CN/docs/Web)
+1. [Front-end-tutorial](https://github.com/windiest/Front-end-tutorial)
+1. [Front-end-Developer-Questions](https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions/Questions-and-Answers)
