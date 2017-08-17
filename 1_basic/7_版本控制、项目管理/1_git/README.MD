@@ -26,6 +26,25 @@
 
 1. 注意： 一些为了特定目的，比如特定客户poc而开发的版本，不要按以上流程。而是单独拉出独立分支，独立分支的命名规则如branch/lewa_poc
 
+**这里提一下第4步，有一个新手容易犯的错误。将feature代码合并到develop前，需要将最新的develop的代码合并过来。如下：**
+```
+# 切换到develop
+git checkout develop
+# 拉取最新的develop代码
+git pull
+# 切回feature/test
+git checkout feature/test
+# 合并
+git merge develop
+# 解决冲突(如果有的话)， commit
+# 切换到develop
+git checkout develop
+# 合并
+git merge release/test
+# 提交最新代码
+git push
+```
+
 ## git 常用命令
 ### 初始化
 ```sh
