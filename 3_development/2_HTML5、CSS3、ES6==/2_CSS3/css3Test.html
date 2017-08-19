@@ -25,6 +25,18 @@
         .transform .scale {
             transform: scale(2, 2);
         }
+
+        /*transition*/
+        .transition {
+            background: #f2f2f2;
+        }
+        .transition span {
+            margin-left: 600px;
+            transition: 1s;
+        }
+        .transition span:hover {
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
@@ -38,6 +50,11 @@
     <div class="scale">
         scale
     </div>
+</div>
+
+<!--transition-->
+<div class="transition">
+    <span> inline </span>
 </div>
 </body>
 </html>
