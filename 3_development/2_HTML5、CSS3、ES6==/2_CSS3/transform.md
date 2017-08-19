@@ -1,4 +1,5 @@
-## 理解 CSS3 `transform`
+> 同步更新在我的 [github](https://github.com/geek-zwb/front-end) 上。欢迎指正，共同学习与完善。
+
 `transform` 属性允许你修改CSS视觉格式模型的坐标空间。包括：
 - `translate (转换)`
 - `rotate (旋转)`
@@ -24,10 +25,10 @@
 
 // 说明： `<length-percentage> = <length> | <percentage>`
 ```
-第一个参数： 表示x轴方向上的移动， 长度单位值， 如 100px。 也可以是百分比数值，如 50%。
-第二个参数(可选)： 表示y轴方向上的移动， 长度单位值， 如 100px。 也可以是百分比数值，如 50%。
+第一个参数： ~~表示x轴方向上的移动~~， 长度单位值， 如 100px。 也可以是百分比数值，如 50%。
+第二个参数(可选)： ~~表示y轴方向上的移动~~， 长度单位值， 如 100px。 也可以是百分比数值，如 50%。
 
-> **Attention:**  负方向上的转换使用负值，如 -100px; 百分比值是相对盒子本身的宽度(对应x)与高度(对应y)。
+> **Attention:  负方向上的`translate`使用负值，如 -100px; 百分比值是相对盒子本身的宽度(对应x)与高度(对应y)。**
 
 - `rotate (旋转)`
 ```css
@@ -51,8 +52,8 @@
 <scale3d()> = scale3d( <number> , <number> , <number> )
 <scaleZ()> = scaleZ( <number> )
 ```
-第一个参数： 表示x轴方向上的缩放， 缩放倍数， 如 `scale(2, 1)` 表示在x轴方向上放大2倍 。
-第二个参数(可选)： 表示y轴方向上的缩放， 缩放倍数， 如 `scale(1, 2)` 表示在x轴方向上放大2倍 。
+第一个参数： ~~表示x轴方向上的缩放， 缩放倍数， 如 `scale(2, 1)` 表示在x轴方向上放大2倍 。~~
+第二个参数(可选)： ~~表示y轴方向上的缩放， 缩放倍数， 如 `scale(1, 2)` 表示在x轴方向上放大2倍 。~~
 
 > **Attention: 省略第二个参数表示所有方向上同时缩放， 如 `scale(2)` 在2d 下表示 x 轴和 y 轴同时放大2倍**
 
@@ -62,8 +63,8 @@
 <skewX()> = skewX( <angle> )
 <skewY()> = skewY( <angle> )
 ```
-第一个参数： 表示x轴方向上的倾斜， 角度， 如 `skew(90deg)` 表示在x轴方向上倾斜90度 。
-第二个参数(可选)： 表示y轴方向上的倾斜， 角度， 如 `skew(0, 90deg)` 表示在y轴方向上倾斜90度。
+第一个参数： 表示x轴方向上的倾斜， 角度， ~~如 `skew(90deg)` 表示在x轴方向上倾斜90度 。~~
+第二个参数(可选)： 表示y轴方向上的倾斜， 角度， ~~如 `skew(0, 90deg)` 表示在y轴方向上倾斜90度。~~
 
 
 ## 放大招了
@@ -100,7 +101,7 @@ transform:  matrix(a, c, b, d, tx, ty)
 具体的解析可以查看[理解CSS3 transform中的Matrix(矩阵)](http://www.zhangxinxu.com/wordpress/2012/06/css3-transform-matrix-%E7%9F%A9%E9%98%B5/)
 
 所以上面的实例应该解释成这样:
-- `translate(100px)` x轴右移了100px。老大动了，小弟只能跟着跑。
+- `translate(100px)` x轴右移了100px。老大动了，小弟只能跟着跑(下同)。
 
 - `rotate(45deg)` 绕着`transform-origin(不额外指定的话是正中心)`旋转了45°
 
@@ -119,11 +120,8 @@ matrix(-1, 0, 0, 1, 0, 0)
 matrix(1, 0, 0, -1, 0, 0)
 ```
 
-嗯，卧槽，还是很懵x 。。。我也很无奈啊~~~
+嗯，卧槽，还是很懵x 。。。我也很无奈啊，我也懵😳~~~
 
 ### 参考
 - [transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform)
 - [理解CSS3 transform中的Matrix(矩阵)](http://www.zhangxinxu.com/wordpress/2012/06/css3-transform-matrix-%E7%9F%A9%E9%98%B5/)
-
-
-
