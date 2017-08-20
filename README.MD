@@ -1,3 +1,5 @@
+> 说明： 该知识体系里的部分文章来自互联网，部分由自己整理。感谢互联网，感谢开源，感谢前辈与大牛。转载请注明出处。
+
 ## 大前端技术栈（有闲情就更新）
 1. [技术基本功](https://github.com/geek-zwb/front-end/tree/master/1_basic)
     1. [熟练掌握至少一种主流代码编辑器或IDE (必修)](https://github.com/geek-zwb/front-end/tree/master/1_basic/1_%E7%BC%96%E8%BE%91%E5%99%A8%E4%B8%8EIDE)
