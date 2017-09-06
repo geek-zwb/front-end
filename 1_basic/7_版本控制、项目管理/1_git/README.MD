@@ -222,6 +222,14 @@ $ git reset --hard [commit]
 ```sh
 # 打个 tag
 $ git tag -a "tagName" -m "remark"
+# 提交tag
+$ git push origin tagName
+
+# 删除本地tag
+$ git tag -d tagName
+
+# 删除远程tag
+$ git push origin --delete tag tagName
 ```
 
 ## 搭建 git 服务器
