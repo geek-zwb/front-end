@@ -2,7 +2,9 @@
 
 > 说明： 该知识体系里的部分文章来自互联网，部分由自己整理。感谢互联网，感谢开源，感谢前辈与大牛。转载请联系对应作者及注明出处。
 
-> 使用： 配合 chrome Octotree 插件。
+> 使用： 配合 chrome Octotree 插件 or 有道云笔记(好处是可以进行关键字搜索)。
+
+> [有道云笔记分享地址](http://note.youdao.com/noteshare?id=d5dca5a50de8739146b16f735b241772)
 
 ## 大前端技术栈（有闲情就更新）
 1. [技术基本功](https://github.com/geek-zwb/front-end/tree/master/1_basic)
