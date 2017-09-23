@@ -141,7 +141,7 @@ fetch('api/user/1', {
 
 服务端会验证token，如果验证通过就会返回相应的资源。整个流程就是这样的:
 
-![jwt-diagram]()
+![jwt-diagram](https://github.com/geek-zwb/front-end/blob/master/5_back-end/5_%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E3%80%81%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/Token/jwt.png?raw=true)
 
 ## 总结
 
