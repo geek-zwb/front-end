@@ -38,15 +38,28 @@ brew install homebrew/php/php70 homebrew/php/php70-mcrypt homebrew/php/php70-gma
 #
 export PATH="/usr/local/sbin:$PATH"
 
-# 写入 .bash_profile
-echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile
+# 写入 .bash_profile  sbin 要写在bin的前面
+echo 'export PATH="/usr/local/sbin:/usr/local/bin:$PATH"' >> ~/.bash_profile
 
-# 如果上面写入报错， 直接用 vi 把 export PATH="/usr/local/sbin:$PATH" 写进 ~/.bash_profile 文件
+# 如果上面写入报错， 直接用 vi 把 export PATH=/usr/local/sbin:/usr/local/bin:$PATH 写进 ~/.bash_profile 文件
 
 # 测试 php, 以下两条命令均得到 PHP 7.0.XX
 php -v
 php-fpm -v
 ```
+
+### 修改 php-fpm 文件
+```
+1.执行命令：
+sudo cp /private/etc/php-fpm.conf.default /private/etc/php-fpm.conf
+2.找到目录下的 php-fpm 文件
+sudo vi /private/etc/php-fpm.conf
+3.找到32行的 error_log ，改为（正行替换，注意 ‘;’ 和空格）：
+error_log = /usr/local/var/log/php-fpm.log
+否则 php-fpm 时会报错：
+ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): No such file or directory (2)
+```
+
 
 ### 启动 php-fpm
 ```
