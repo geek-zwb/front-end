@@ -84,3 +84,38 @@ http {
 ```
 /etc/init.d/nginx restart
 ```
+
+配置 php 命令行
+```
+vi /etc/profile.d/useralias.sh
+
+# 写入如下内容
+alias php='/usr/local/php/bin/php'
+
+# 保存退出，使其生效
+source /etc/profile.d/useralias.sh
+
+# 检验
+php -v
+
+PHP 7.0.4 (cli) (built: Nov 14 2017 01:58:25) ( NTS )
+Copyright (c) 1997-2016 The PHP Group
+Zend Engine v3.0.0, Copyright (c) 1998-2016 Zend Technologies
+```
+
+打开php 错误提示, 如果需要的话
+```
+vi /usr/local/php/etc/php-fpm.conf
+// 最后加上一行
+php_flag[display_errors] = on
+
+vi /usr/local/php/lib/php.ini
+// 检查错误信息是否打开
+display_errors = On
+error_reporting = E_ALL
+```
+修改完配置需要重启
+```
+/etc/init.d/php-fpm restart
+/etc/init.d/nginx restart
+```
