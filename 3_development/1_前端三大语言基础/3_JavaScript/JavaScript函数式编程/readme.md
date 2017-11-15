@@ -1,0 +1,1 @@
+In fact, 这是 《JavaScript函数式编程》 的读书笔记 ~
