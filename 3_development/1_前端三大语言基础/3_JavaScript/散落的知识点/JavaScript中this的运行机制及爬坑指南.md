@@ -401,7 +401,7 @@ loop: function () {
 }
 ```
 修正2：` bind()`。 使用bind()来创建一个this总是指向正确值的函数（在下面的例子中该方法的this）。
-```
+```javascript
 loop: function () {
 
     'use strict';
@@ -415,7 +415,7 @@ loop: function () {
 }
 ```
 修正3： forEach的第二个参数。 此方法具有第二个参数，this值将作为此值传递给回调函数。
-```
+```javascript
 loop: function () {
 
     'use strict';
@@ -431,7 +431,7 @@ loop: function () {
 
 ## 最佳实践
 从概念上讲，我认为普通函数没有它自己的this，并且想到上述修复是为了保持这种想法。 ECMAScript 6通过箭头函数支持这种方法 - 没有它们自己的this。 在这样的函数里面，你可以自由使用this，因为不会被屏蔽：
-```
+```javascript
 loop: function () {
 
     'use strict';
@@ -449,7 +449,7 @@ loop: function () {
 }
 ```
 我不喜欢使用this作为普通函数的附加参数的API：
-```
+```javascript
 beforeEach(function () {
 
     this.addMatchers({
@@ -465,7 +465,7 @@ beforeEach(function () {
 });
 ```
 将这样的隐含参数变成明确的参数使得事情更加明显，并且与箭头函数兼容。
-```
+```javascript
 beforeEach(api => {
 
     api.addMatchers({
